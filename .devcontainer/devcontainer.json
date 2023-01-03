@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+      "ghcr.io/roost-io/features/roost:1.0.0": {
+          "ent_server": "${localEnv:ENT_SERVER}",
+          "roost_auth_token": "${localEnv:ROOST_AUTH_TOKEN}",
+          "email": "rahul_goyal@zb.io",
+          "region": "us-west-1",
+          "instance_type": "t3.small"
+      }
+  }
+}
