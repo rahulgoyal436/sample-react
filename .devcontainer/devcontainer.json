@@ -2,6 +2,7 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
       "ghcr.io/rahulgoyal436/features/test:1.0.0": {
+          "roost_server": "${localEnv:ENT_SERVER}",
           "roost_auth_token": "${localEnv:ROOST_AUTH_TOKEN}",
           "email": "rahul_goyal@zb.io",
           "region": "us-west-1",
